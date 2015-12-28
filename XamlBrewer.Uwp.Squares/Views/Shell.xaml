@@ -8,11 +8,11 @@
       xmlns:vm="using:Mvvm">
     <Page.Resources>
         <SolidColorBrush x:Key="SplitViewBackgroundBrush"
-                         Color="Blue" />
+                         Color="Coral" />
         <SolidColorBrush x:Key="SplitViewForegroundBrush"
                          Color="White" />
         <SolidColorBrush x:Key="SplitViewHighlightBrush"
-                         Color="Orange" />
+                         Color="Firebrick" />
     </Page.Resources>
 
     <Page.DataContext>

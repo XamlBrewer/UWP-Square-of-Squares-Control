@@ -16,9 +16,9 @@ namespace Mvvm.Services
                 var titleBar = ApplicationView.GetForCurrentView().TitleBar;
                 if (titleBar != null)
                 {
-                    titleBar.ButtonBackgroundColor = Colors.Red;
+                    titleBar.ButtonBackgroundColor = Colors.Indigo;
                     titleBar.ButtonForegroundColor = Colors.White;
-                    titleBar.BackgroundColor = Colors.Red;
+                    titleBar.BackgroundColor = Colors.Indigo;
                     titleBar.ForegroundColor = Colors.White;
                 }
             }
@@ -30,7 +30,7 @@ namespace Mvvm.Services
                 if (statusBar != null)
                 {
                     statusBar.BackgroundOpacity = 1;
-                    statusBar.BackgroundColor = Colors.Blue;
+                    statusBar.BackgroundColor = Colors.Indigo;
                     statusBar.ForegroundColor = Colors.White;
                 }
             }
