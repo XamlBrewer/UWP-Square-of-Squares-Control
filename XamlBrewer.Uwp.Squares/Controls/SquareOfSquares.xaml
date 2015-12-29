@@ -9,7 +9,6 @@
              d:DesignWidth="400">
     <Viewbox Stretch="Uniform">
         <Grid x:Name="Root"
-              Background="CornflowerBlue"
               Height="1120"
               Width="1120"
               UseLayoutRounding="True">
