@@ -1,5 +1,7 @@
-﻿using Windows.UI.Xaml;
+﻿using Windows.UI;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media;
 using WinRTXamlToolkit.Controls;
 using XamlBrewer.Uwp.Controls;
 
@@ -18,7 +20,11 @@ namespace XamlBrewer.Uwp.Squares
             foreach (var square in SquareOfSquares.Squares)
             {
                 var gauge = new Gauge() { Height = square.ActualHeight, Width = square.ActualWidth };
-                //grid.Background = new SolidColorBrush(square.RandomColor());
+                gauge.TrailBrush = new SolidColorBrush(square.RandomColor());
+                gauge.TickBrush = new SolidColorBrush(Colors.Transparent);
+                gauge.ScaleTickBrush = new SolidColorBrush(Colors.LemonChiffon);
+                gauge.NeedleBrush = new SolidColorBrush(Colors.OrangeRed);
+                gauge.Maximum = 50;
                 var side = square.Side();
                 gauge.Value = side;
                 square.Content = gauge;
