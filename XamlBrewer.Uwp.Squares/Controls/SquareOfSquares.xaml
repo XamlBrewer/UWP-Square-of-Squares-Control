@@ -10,9 +10,6 @@
     <Viewbox Stretch="Uniform">
         <Grid x:Name="Root"
               Height="1120"
-              Width="1120"
-              UseLayoutRounding="True">
-
-        </Grid>
+              Width="1120" />
     </Viewbox>
 </UserControl>

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Windows.Foundation;
-using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
@@ -39,16 +38,10 @@ namespace XamlBrewer.Uwp.Controls
             }
         }
 
+        /// <summary>
+        /// Returns the list of inner squares.
+        /// </summary>
         public List<ContentControl> Squares { get; private set; } = new List<ContentControl>();
-
-        public Color RandomColor()
-        {
-            byte red = (byte)r.Next(0, 255);
-            byte green = (byte)r.Next(0, 255);
-            byte blue = (byte)r.Next(0, 255);
-
-            return new Color() { A = 255, R = red, G = green, B = blue };
-        }
 
         private List<InnerSquare> GetSquares()
         {

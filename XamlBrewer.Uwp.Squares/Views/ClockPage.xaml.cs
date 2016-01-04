@@ -16,8 +16,8 @@ namespace XamlBrewer.Uwp.Squares
         {
             foreach (var square in SquareOfSquares.Squares)
             {
-                var gauge = new Clock() { Height = square.ActualHeight, Width = square.ActualWidth };
-                square.Content = gauge;
+                var clock = new Clock() { Height = square.ActualHeight, Width = square.ActualWidth };
+                square.Content = clock;
             }
         }
     }
