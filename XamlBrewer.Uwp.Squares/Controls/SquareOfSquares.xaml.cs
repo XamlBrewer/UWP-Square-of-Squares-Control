@@ -7,6 +7,9 @@ using Windows.UI.Xaml.Controls;
 
 namespace XamlBrewer.Uwp.Controls
 {
+    /// <summary>
+    /// A container to host multiple instances of a square XAML element, e.g. a user control.
+    /// </summary>
     public sealed partial class SquareOfSquares : UserControl
     {
         private Random r = new Random(DateTime.Now.Millisecond);
