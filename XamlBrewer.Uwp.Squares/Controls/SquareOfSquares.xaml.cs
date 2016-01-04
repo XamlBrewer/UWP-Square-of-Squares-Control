@@ -1,18 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 namespace XamlBrewer.Uwp.Controls
 {
@@ -35,17 +26,11 @@ namespace XamlBrewer.Uwp.Controls
 
             foreach (InnerSquare square in GetSquares())
             {
-                var ctl = new ContentControl(); // { Stretch = Stretch.UniformToFill };
+                var ctl = new ContentControl();
                 ctl.SetValue(Grid.RowProperty, square.Position.Y);
                 ctl.SetValue(Grid.ColumnProperty, square.Position.X);
                 ctl.SetValue(Grid.ColumnSpanProperty, square.Side);
                 ctl.SetValue(Grid.RowSpanProperty, square.Side);
-                //var cc = new ContentControl();
-                //cc.VerticalAlignment = VerticalAlignment.Stretch;
-                //cc.HorizontalAlignment = HorizontalAlignment.Stretch;
-                //cc.VerticalAlignment = VerticalAlignment.Stretch;
-                //cc.HorizontalAlignment = HorizontalAlignment.Stretch;
-                //ctl.Child = cc;
                 Root.Children.Add(ctl);
                 Squares.Add(ctl);
             }

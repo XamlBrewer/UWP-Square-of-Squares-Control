@@ -102,7 +102,6 @@
     </Compile>
     <Compile Include="Controls\UIElementExtensions.cs" />
     <Compile Include="Mvvm\BindableBase.cs" />
-    <Compile Include="Mvvm\BooleanToVisibilityConverter.cs" />
     <Compile Include="Mvvm\DelegateCommand.cs" />
     <Compile Include="Services\Theme.cs" />
     <Compile Include="ViewModels\MenuItem.cs" />

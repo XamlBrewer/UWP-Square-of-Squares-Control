@@ -4,7 +4,6 @@
     using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
     using System.Windows.Input;
-    using Windows.UI.Xaml.Input;
 
     internal class DelegateCommand : ICommand
     {
