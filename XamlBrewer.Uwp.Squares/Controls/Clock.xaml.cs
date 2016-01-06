@@ -103,10 +103,8 @@ namespace XamlBrewer.Uwp.Controls
             var seconds = (float)(int)now.TimeOfDay.TotalSeconds;
             animation.InsertKeyFrame(0.00f, seconds * 6);
             animation.InsertKeyFrame(1.00f, (seconds + 1) * 6);
-            //animation.InsertExpressionKeyFrame(1.00f, "this.StartingValue + delta");
-            //animation.SetScalarParameter("delta", 6.0f);
             animation.Duration = TimeSpan.FromMilliseconds(900);
-            _secondhand.StartAnimation("RotationAngleInDegrees", animation);
+            _secondhand.StartAnimation(nameof(_secondhand.RotationAngleInDegrees), animation);
             _batch.End();
             _batch.Completed += Batch_Completed;
         }
