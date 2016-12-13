@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>XamlBrewer.Uwp.SquareOfSquares</id>
+    <version>1.0.0.0</version>
+    <title>SquareOfSquares Control for UWP</title>
+    <authors>Diederik Krols</authors>
+    <owners>xamlbrewer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/XamlBrewer/UWP-Square-of-Squares-Control</projectUrl>
+    <iconUrl>https://github.com/XamlBrewer/UWP-Square-of-Squares-Control/blob/master/nuget.png</iconUrl>
+    <description>A square XAML panel to host 21 differently sized instances of a square UWP element.</description>
+    <copyright>© XAMLBrewer. All rights reserved.</copyright>
+    <tags>UWP Controls XAML Square Test</tags>
+    <dependencies>
+      <group targetFramework="uap10.0">
+        <dependency id="System.Runtime.InteropServices.WindowsRuntime" version="4.0.0" />
+        <dependency id="System.Collections" version="4.0.11" />
+        <dependency id="System.Diagnostics.Debug" version="4.0.11" />
+        <dependency id="System.Diagnostics.Tools" version="4.0.1" />
+        <dependency id="System.Runtime" version="4.1.0" />
+        <dependency id="System.Runtime.Extensions" version="4.1.0" />
+        <dependency id="System.Runtime.WindowsRuntime" version="4.0.11" />
+        <dependency id="System.Runtime.WindowsRuntime.UI.Xaml" version="4.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\XamlBrewer.Uwp.SquareOfSquares\bin\Release\XamlBrewer.Uwp.SquareOfSquares.dll" target="lib\uap10.0" />
+    <file src=".\XamlBrewer.Uwp.SquareOfSquares\bin\Release\XamlBrewer.Uwp.SquareOfSquares.pdb" target="lib\uap10.0" />
+    <file src=".\XamlBrewer.Uwp.SquareOfSquares\bin\Release\XamlBrewer.Uwp.SquareOfSquares.pri" target="lib\uap10.0" />
+    <file src=".\XamlBrewer.Uwp.SquareOfSquares\bin\Release\XamlBrewer.Uwp.SquareOfSquares.xr.xml" target="lib\uap10.0\XamlBrewer.Uwp.SquareOfSquares" />
+  </files>
+</package>

@@ -7,8 +7,8 @@
     <ProjectGuid>{E8BEB79F-B04C-44E4-92A3-DEF89D15980D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XamlBrewer.Uwp.SquareOfSquaresControl</RootNamespace>
-    <AssemblyName>XamlBrewer.Uwp.SquareOfSquaresControl</AssemblyName>
+    <RootNamespace>XamlBrewer.Uwp.SquareOfSquares</RootNamespace>
+    <AssemblyName>XamlBrewer.Uwp.SquareOfSquares</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>

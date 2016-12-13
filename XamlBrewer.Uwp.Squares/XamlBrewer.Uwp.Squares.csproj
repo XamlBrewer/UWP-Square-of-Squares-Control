@@ -158,9 +158,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamlBrewer.Uwp.SquareOfSquaresControl\XamlBrewer.Uwp.SquareOfSquaresControl.csproj">
+    <ProjectReference Include="..\XamlBrewer.Uwp.SquareOfSquares\XamlBrewer.Uwp.SquareOfSquares.csproj">
       <Project>{e8beb79f-b04c-44e4-92a3-def89d15980d}</Project>
-      <Name>XamlBrewer.Uwp.SquareOfSquaresControl</Name>
+      <Name>XamlBrewer.Uwp.SquareOfSquares</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

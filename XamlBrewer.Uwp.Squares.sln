@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlBrewer.Uwp.Squares", "XamlBrewer.Uwp.Squares\XamlBrewer.Uwp.Squares.csproj", "{A6470E15-D7A4-4355-9FA8-4C2C402C4885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlBrewer.Uwp.SquareOfSquaresControl", "XamlBrewer.Uwp.SquareOfSquaresControl\XamlBrewer.Uwp.SquareOfSquaresControl.csproj", "{E8BEB79F-B04C-44E4-92A3-DEF89D15980D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlBrewer.Uwp.SquareOfSquares", "XamlBrewer.Uwp.SquareOfSquares\XamlBrewer.Uwp.SquareOfSquares.csproj", "{E8BEB79F-B04C-44E4-92A3-DEF89D15980D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{0519D884-CA33-4F2A-B851-74A0B0EA3A2A}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.png = nuget.png
+		XamlBrewer.Uwp.SquareOfSquares.nuspec = XamlBrewer.Uwp.SquareOfSquares.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

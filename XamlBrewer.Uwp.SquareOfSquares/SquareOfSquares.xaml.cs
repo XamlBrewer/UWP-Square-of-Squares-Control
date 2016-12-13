@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Windows.Foundation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -11,8 +10,6 @@ namespace XamlBrewer.Uwp.Controls
     /// </summary>
     public sealed partial class SquareOfSquares : UserControl
     {
-        private Random r = new Random(DateTime.Now.Millisecond);
-
         public SquareOfSquares()
         {
             this.InitializeComponent();
