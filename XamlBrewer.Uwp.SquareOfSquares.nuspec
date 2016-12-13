@@ -8,7 +8,7 @@
     <owners>xamlbrewer</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/XamlBrewer/UWP-Square-of-Squares-Control</projectUrl>
-    <iconUrl>https://github.com/XamlBrewer/UWP-Square-of-Squares-Control/blob/master/nuget.png</iconUrl>
+    <iconUrl>https://github.com/XamlBrewer/UWP-Square-of-Squares-Control/blob/master/nuget.png?raw=true</iconUrl>
     <description>A square XAML panel to host 21 differently sized instances of a square UWP element.</description>
     <copyright>© XAMLBrewer. All rights reserved.</copyright>
     <tags>UWP Controls XAML Square Test</tags>

@@ -1,7 +1,8 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
-    "WinRTXamlToolkit.Controls.Gauge.UWP": "1.9.4"
+    "WinRTXamlToolkit.Controls.Gauge.UWP": "1.9.4",
+    "XamlBrewer.Uwp.SquareOfSquares": "1.0.0"
   },
   "frameworks": {
     "uap10.0": {}

@@ -158,12 +158,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamlBrewer.Uwp.SquareOfSquares\XamlBrewer.Uwp.SquareOfSquares.csproj">
-      <Project>{e8beb79f-b04c-44e4-92a3-def89d15980d}</Project>
-      <Name>XamlBrewer.Uwp.SquareOfSquares</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <SDKReference Include="WindowsMobile, Version=10.0.10586.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
